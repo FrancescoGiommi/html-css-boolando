@@ -20,6 +20,8 @@ img {
   display: flex;
 }
 
+/* # CARDS */
+
 .product-card {
   display: flex;
   flex-wrap: wrap;
@@ -28,4 +30,41 @@ img {
 .card-image {
   width: 300px;
   height: 550px;
+  position: relative;
+}
+
+.hearts {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  padding: 10px;
+  background-color: white;
+}
+
+.discount-50 {
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+}
+
+.eco {
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+  margin-left: 50px;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+}
+
+#left {
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
 }
