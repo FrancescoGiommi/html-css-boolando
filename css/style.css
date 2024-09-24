@@ -111,3 +111,17 @@ span {
   background-color: green;
   color: white;
 }
+
+/* # FOOTER */
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 70px;
+}
+
+.footer-content {
+  color: white;
+}
