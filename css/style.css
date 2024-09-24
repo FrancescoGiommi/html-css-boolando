@@ -30,11 +30,11 @@ img {
   width: 100%;
 }
 
-.logo {
+.header-logo {
   width: 150px;
 }
 
-.items {
+.header-items {
   color: white;
 }
 
@@ -140,5 +140,12 @@ img {
   color: white;
 }
 
-.end {
+.footer-item {
+  display: block;
+}
+
+.left {
+}
+
+.right {
 }
