@@ -50,6 +50,15 @@ img {
   color: white;
 }
 
+.discount-30 {
+  position: absolute;
+  bottom: 150px;
+  left: 0px;
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+}
+
 .eco {
   position: absolute;
   bottom: 150px;
